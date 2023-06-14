@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  section {
+    display: flex;
+  }
+  
+  section > article {
+    flex: 1;
+  }
+  
+  aside {
+    width: 300px;
+    background-color:#3ab700;
+    color: white;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
